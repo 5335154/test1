@@ -1,4 +1,4 @@
-from lib.base import get_login
+from requests4.lib.base import get_login
 
 
 def is_rely(data):

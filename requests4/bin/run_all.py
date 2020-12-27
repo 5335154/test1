@@ -2,7 +2,7 @@
 import time
 import unittest
 from BeautifulReport import BeautifulReport
-from setting import CASE_PATH, REPORT_PATH
+from requests4.setting import CASE_PATH, REPORT_PATH
 
 #unittest的discover批量执行testcase，这里面有三个参数，
 discover = unittest.defaultTestLoader.discover(start_dir=CASE_PATH,        #分别是用例所在目录

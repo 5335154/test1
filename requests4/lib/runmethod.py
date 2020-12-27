@@ -1,5 +1,5 @@
 import requests
-from lib.hash_pwd import hash_pwd
+from requests4.lib.hash_pwd import hash_pwd
 
 
 def run_post(url,data,hash):

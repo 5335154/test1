@@ -4,9 +4,9 @@ import unittest      #使用到unittest组织用例
 import ddt           #使用到ddt数据驱动
 import requests      #使用到requests库发起各种请求
 
-from lib.base import get_login
-from lib.hash_pwd import hash_pwd  #引入封装的hashlib方法
-from setting import DATA_PATH     #引入setting.py文件对于DATA_PATH路径的确定
+from requests4.lib.base import get_login
+from requests4.lib.hash_pwd import hash_pwd  #引入封装的hashlib方法
+from requests4.setting import DATA_PATH     #引入setting.py文件对于DATA_PATH路径的确定
 
 @ddt.ddt   #类前
 class LoginCase(unittest.TestCase):
